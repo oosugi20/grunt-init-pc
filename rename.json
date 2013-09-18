@@ -1,0 +1,10 @@
+{
+	".git/**/*": false,
+	".git/": false,
+	"components/": false,
+	"Gruntfile.coffee": false,
+	"package.json": false,
+	".editorconfig": false,
+	".git*": false,
+	"**/*.DS_Store": false
+}

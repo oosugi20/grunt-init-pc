@@ -20,8 +20,7 @@ exports.template = function(grunt, init, done) {
 
   init.process({}, [
     // Prompt for these values.
-    init.prompt('project_name'),
-    init.prompt('author_name')
+    init.prompt('project_name')
   ], function(err, props) {
 
     // Files to copy (and process).
