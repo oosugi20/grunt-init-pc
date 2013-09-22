@@ -1,10 +1,15 @@
 {
 	".git/**/*": false,
 	".git/": false,
-	"root/components/": false,
-	"./Gruntfile.coffee": false,
-	"./package.json": false,
-	"./.editorconfig": false,
-	"./.git*": false,
+	".git*": false,
+	".gitkeep": false,
+	".editorconfig": false,
+	"Gruntfile.coffee": false,
+	"package.json": false,
+	"root/root/**/*": "root/",
+	"root/root/Gruntfile.coffee": true,
+	"root/root/package.json": true,
+	"root/root/.editorconfig": true,
+	"root/root/**/.git*": true,
 	"**/*.DS_Store": false
 }
