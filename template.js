@@ -20,7 +20,11 @@ exports.template = function(grunt, init, done) {
 
   init.process({}, [
     // Prompt for these values.
-    init.prompt('project_name')
+    init.prompt('project_name'),
+    init.prompt('project_id'),
+	init.prompt('ftp_host'),
+	init.prompt('ftp_dir'),
+	init.prompt('ftp_authkey')
   ], function(err, props) {
 
     // Files to copy (and process).
